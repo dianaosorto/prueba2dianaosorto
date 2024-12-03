@@ -1,0 +1,59 @@
+:root {
+    color-general: #686868;
+    color-titulos: #303030;
+    color-hover-menu: #FE8F01;
+    fondo-header: #202020;
+    fondo-footer: #353330;
+    letra-footer: #777;
+}
+
+body {
+    font-size: 17px;
+    color: #666;
+    background-color: #FFFFFF;
+}
+
+header {
+    background-color: var(--fondo-header);
+    background-color: #202020;
+}
+
+.hero {
+    padding: 250px;
+    background: url('../img/hero-image.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+.hero h1 {
+    font-family: 'Alegreya', serif;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+section {
+    padding: 50px 0;
+}
+
+footer {
+    background-color: var(fondo-footer);
+    background-color: #353330;
+    padding: 15px 0;
+    color: var(letra-footer);
+    text-align: center;
+}
+
+footer img {
+    margin-bottom: 25px;
+}
